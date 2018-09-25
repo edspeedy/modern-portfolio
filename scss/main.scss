@@ -30,7 +30,7 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 1rem;
   }
   &.sm-heading {
@@ -137,6 +137,32 @@ main {
       opacity: 1;
       @include easeOut;
       // transform: scale(2);
+    }
+  }
+}
+
+
+// Contact Page
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+  
+  div {
+    font-size: 2rem;
+    border: 3px solid #fff;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut;
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background-color: $secondary-color;
+      color: set-text-color($secondary-color);
+      span {
+        color: set-text-color($secondary-color);
+      }
     }
   }
 }
