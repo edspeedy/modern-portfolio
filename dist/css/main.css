@@ -101,7 +101,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 3px solid #eece1a;
+  border: 3px solid #0dabe5;
   background-image: url("../img/portrait.jpg");
 }
 
@@ -118,7 +118,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #0dabe5;
 }
 
 .menu .nav-link {
@@ -135,7 +135,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #0dabe5;
 }
 
 .nav-item:nth-child(1) {
@@ -208,7 +208,7 @@ h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 4rem;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 h1.sm-heading,
@@ -231,11 +231,11 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #0dabe5;
 }
 
 main {
-  padding: 3rem;
+  padding: 1.5rem;
   min-height: calc(100vh - 60px);
 }
 
@@ -248,17 +248,13 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #eece1a;
+  color: #0dabe5;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 
 main#home {
   overflow: hidden;
-}
-
-main#home h1 {
-  margin-top: 20vh;
 }
 
 .about-info {
@@ -276,7 +272,7 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: 3px solid #eece1a;
+  border: 3px solid #0dabe5;
 }
 
 .about-info .bio {
@@ -308,7 +304,7 @@ main#home h1 {
 .about-info .job {
   background-color: #515151;
   padding: 0.5rem;
-  border-bottom: 5px solid #eece1a;
+  border-bottom: 5px solid #0dabe5;
 }
 
 .projects {
@@ -326,7 +322,7 @@ main#home h1 {
 }
 
 .projects img:hover {
-  border-color: #eece1a;
+  border-color: #0dabe5;
   opacity: 1;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -348,9 +344,9 @@ main#home h1 {
 }
 
 .boxes div {
-  font-size: 2rem;
+  font-size: 1.3rem;
   border: 3px solid #fff;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 2rem;
   margin-bottom: 3rem;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -358,7 +354,7 @@ main#home h1 {
 
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background-color: #eece1a;
+  background-color: #0dabe5;
   color: #000;
 }
 
@@ -374,7 +370,7 @@ main#home h1 {
 }
 
 .btn-light:hover, .btn-dark:hover {
-  background-color: #eece1a;
+  background-color: #0dabe5;
   color: #000;
 }
 
@@ -457,9 +453,6 @@ main#home h1 {
 }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh;
-  }
   /* .projects {
     grid-template-columns: 1fr;
   } */
